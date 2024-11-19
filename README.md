@@ -54,8 +54,8 @@ Commute Distance:
   
 * **Aesthetic Enhancements**:
 
-Added descriptive headers and labels for easy interpretation.
-Included placeholders for images to make the dashboard visually appealing and professional.
+* Added descriptive headers and labels for easy interpretation.
+* Included placeholders for images to make the dashboard visually appealing and professional.
 
 * **Portfolio Presentation**
 * Purpose:
