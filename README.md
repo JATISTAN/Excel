@@ -26,7 +26,7 @@ Created Age Brackets:
 * **Average Income Per Purchase**:
 
 **Overview of Average Income Per Purchase and Pivot table** : 
-![](das1.png)
+![](Images/das1.png)
 
 
 
