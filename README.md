@@ -23,14 +23,19 @@ Created Age Brackets:
 ### Data Analysis
 * Pivot tables were used to summarize the data into actionable insights:
 
-* Average Income Per Purchase:
+* **Average Income Per Purchase**:
+
+**Overview of Average Income Per Purchase and Pivot table** : 
+![](Images/Screenshot 2024-11-20 041711.png)
 
 Grouped by gender and purchasing behavior (Yes/No).
 Helped identify income patterns based on gender and buying decisions.
-Consumer Age Bracket:
+
+* **Consumer Age Bracket**:
 
 * Count of purchases by age group to analyze which demographic buys the most.
-Commute Distance:
+  
+* **Commute Distance**:
 
 * Count of purchases by distance categories to understand geographical trends.
 
