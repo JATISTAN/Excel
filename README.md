@@ -24,22 +24,37 @@ Created Age Brackets:
 * Pivot tables were used to summarize the data into actionable insights:
 
 * **Average Income Per Purchase**:
+* 
 
 **Overview of Average Income Per Purchase and Pivot table** : 
 ![](Images/das1.png)
 
 
 
-Grouped by gender and purchasing behavior (Yes/No).
-Helped identify income patterns based on gender and buying decisions.
+
+
+* **Grouped by gender and purchasing behavior (Yes/No).**
+* **Helped identify income patterns based on gender and buying decisions.**
+
+
 
 * **Consumer Age Bracket**:
 
-* Count of purchases by age group to analyze which demographic buys the most.
+*Overview of Consumer Age Bracket and Pivot table* : 
+![](Images/das3.png)
+
+
+* *Count of purchases by age group to analyze which demographic buys the most.*
+
   
 * **Commute Distance**:
 
-* Count of purchases by distance categories to understand geographical trends.
+
+*Overview of Commute Distance and Pivot table* : 
+![](Images/das2.png)
+
+
+* *Count of purchases by distance categories to understand geographical trends.*
 
 
 
@@ -47,6 +62,16 @@ Helped identify income patterns based on gender and buying decisions.
 * The dashboard was built to deliver insights at a glance, focusing on clarity and interactivity.
 
 * **Key Features**:
+
+
+
+*Overview of Bike Sales Dashboard* : 
+![](Images/das.png)
+
+
+
+
+
 
 * **Slicers**:
 * Marital Status: Filter sales data by marital status (Married/Single).
