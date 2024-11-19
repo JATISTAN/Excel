@@ -35,7 +35,7 @@ Key insights were derived using **pivot tables**, summarized as follows:
    - Helped identify income patterns based on gender and buying decisions.  
 
    **Overview of Pivot Table and Chart:**  
-   ![Average Income Per Purchase](Bike_Sales_Dashboard/Images/das1.png)  
+   ![Average Income Per Purchase](/Images/das1.png)  
 
    - *This chart shows how income varies based on gender and purchasing decisions.*
 ---
@@ -44,7 +44,7 @@ Key insights were derived using **pivot tables**, summarized as follows:
    - Counted purchases by age group to identify which demographic contributes the most to sales.  
 
    **Overview of Age Bracket Analysis:**  
-   ![Consumer Age Bracket](Bike_Sales_Dashboard/Images/das3.png)  
+   ![Consumer Age Bracket](/Images/das3.png)  
 
    - *Middle-aged customers emerged as the dominant purchasing group.*
 ---
@@ -53,7 +53,7 @@ Key insights were derived using **pivot tables**, summarized as follows:
    - Counted purchases by distance categories to understand trends across geographical proximity.  
 
    **Overview of Commute Distance Analysis:**  
-   ![Commute Distance Analysis](Bike_Sales_Dashboard/Images/das2.png)
+   ![Commute Distance Analysis](/Images/das2.png)
 
    - *Customers commuting shorter distances made the majority of purchases.* 
 ---
@@ -80,7 +80,7 @@ The **Bike Sales Dashboard** integrates the findings into an interactive and vis
 
 ### **Dashboard Snapshot**
 Here’s an example of the completed **Bike Sales Dashboard**:  
-![Bike Sales Dashboard](Bike_Sales_Dashboard/Images/das.png)  
+![Bike Sales Dashboard](/Images/das.png)  
 
 ---
 
