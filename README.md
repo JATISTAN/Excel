@@ -2,6 +2,7 @@
 This section highlights Excel-based projects, focusing on data cleaning workflows, analysis techniques, and dashboard creation.
 
 ---
+## **Project 1:**
 
 ## **Bike Sales Dashboard - Project Overview**  
 The **Bike Sales Dashboard** demonstrates expertise in Excel through advanced data cleaning, transformation, and visualization techniques. It provides actionable insights into sales trends, customer demographics, and purchasing behavior.
@@ -94,7 +95,130 @@ Here’s an example of the completed **Bike Sales Dashboard**:
 - Clear segmentation of insights to guide stakeholders through key findings.  
 
 ---
+---
+---
+---
 
+
+
+# **Project 2:**  
+
+---
+
+## **Coffee Sales Dashboard - Project Overview**  
+The **Coffee Sales Dashboard** showcases advanced Excel techniques such as data cleaning, transformation, visualization, and dashboard creation. It provides actionable insights into customer demographics, product performance, sales trends, and profitability.
+
+---
+
+### **Raw Data**  
+The project begins with three datasets:
+
+1. **Customer Data**  
+   - Contains details such as `Customer ID`, `Name`, `Email`, `Country`, and `Loyalty Card`.  
+    **Overview:**  
+   ![](Images/customer0.png)    
+
+2. **Order Data**  
+   - Includes information like `Order ID`, `Customer ID`, `Product ID`, `Order Date`, `Quantity`, and `Sales`.  
+     **Overview:**  
+   ![](Images/order0.png)    
+
+3. **Product Data**  
+   - Provides details such as `Product ID`, `Coffee Type`, `Roast Type`, `Size`, `Unit Price`, and `Profit`.  
+     **Overview:**  
+   ![](Images/products0.png)
+
+---
+
+## **Data Cleaning and Preparation - Step-by-Step**  
+The following steps were undertaken to clean and prepare the data for analysis:
+
+### **1. Populating Missing Data Using XLOOKUP**
+- Used `XLOOKUP` to fetch customer details (Name, Email, and Country) and product information (Coffee Type, Roast Type, Size, and Unit Price).
+- Example for populating Email:  
+  `=IF(XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C$1:$C$1001,,0)=0,"",XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C$1:$C$1001,,0))`
+- Used `INDEX MATCH` for dynamic population of product data:  
+  `=INDEX(products!$A$1:$G$49,MATCH(orders!$D2,products!$A$1:$A$49,0),MATCH(orders!I$1,products!$A$1:$G$1,0))`
+
+### **2. Adding Sales Column**
+- Calculated `Sales` as:  
+  `=Unit Price * Quantity`
+
+### **3. Enhancing Coffee and Roast Type Names**
+- Used `IF` statements to give full names:  
+  - Coffee Type:  
+    `=IF(I2="Rob","Robusta",IF(I2="Exc","Excelsa",IF(I2="Ara","Arabica",IF(I2="Lib","Liberica",""))))`  
+  - Roast Type:  
+    `=IF(J2="M","Medium",IF(J2="L","Light",IF(J2="D","Dark","")))`
+
+### **4. Formatting and Cleaning**
+- **Date Formatting:** Changed to `dd/mmm/yyyy` for consistency.  
+- **Number Formatting:**  
+  - `Size`: Converted `1` to `1kg`.  
+  - `Unit Price` and `Sales`: Set to USD format.  
+- Removed duplicate values.  
+
+### **5. Adding Loyalty Card**
+- Auto-populated Loyalty Card column using:  
+  `=XLOOKUP([@[Customer ID]],customers!$A$1:$A$1001,customers!$I$1:$I$1001,,0)`
+
+### **6. Converting Range to Table**
+- Converted cleaned data into a structured table for easier updates and analysis.
+
+---
+
+## **Pivot Tables and Charts**  
+
+### **1. Pivot Table: Sales by Country**
+- Summarized total sales country-wise.  
+- Created a bar chart to visualize.  
+*(Insert Image of Country Pivot Table and Chart Here)*  
+
+### **2. Pivot Table: Top 5 Customers**
+- Identified and ranked the top 5 customers by total sales.  
+*(Insert Image of Top 5 Customers Pivot Table Here)*  
+
+### **3. Pivot Table: Sales Over Time**
+- Tracked total sales over time using a timeline filter.  
+*(Insert Image of Sales Over Time Pivot Table and Chart Here)*  
+
+---
+
+## **Dashboard Creation**  
+
+### **Dashboard Features**  
+- Integrated 3 pivot tables and a timeline for dynamic filtering.  
+- Added slicers for `Size`, `Roast Type Name`, and `Loyalty Card`.  
+- Connected slicers and timeline to all pivot tables using the "Report Connection" feature.
+
+### **Final Dashboard Includes:**  
+1. **Total Sales Over Time** (with a timeline).  
+2. **Sales by Country** (bar chart).  
+3. **Top 5 Customers** (table).  
+4. **Interactive Slicers**:  
+   - **Size**  
+   - **Roast Type Name**  
+   - **Loyalty Card**  
+*(Insert Final Dashboard Image Here)*  
+
+---
+
+## **Key Excel Features and Formulas Used**  
+- **XLOOKUP**: To fetch data dynamically across datasets.  
+- **INDEX MATCH**: For flexible and dynamic lookups.  
+- **IF Statements**: To create descriptive fields for analysis.  
+- **Data Formatting**: Standardized dates, numbers, and text for clarity.  
+- **Pivot Tables and Charts**: Summarized and visualized key metrics.  
+- **Slicers and Timeline**: For interactive and user-friendly filtering.
+
+---
+
+## **Conclusion**  
+The **Coffee Sales Dashboard** project demonstrates proficiency in Excel for data cleaning, preparation, and visualization. It provides a comprehensive overview of sales trends, customer insights, and product performance.  
+
+This project is a testament to leveraging Excel for strategic decision-making through advanced analysis and dashboard creation.
+
+---
 
 
 
