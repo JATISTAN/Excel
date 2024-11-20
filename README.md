@@ -2,6 +2,14 @@
 This section highlights Excel-based projects, focusing on data cleaning workflows, analysis techniques, and dashboard creation.
 
 ---
+## **Projects Overview**  
+This repository includes the following Excel-based projects:
+
+1. [Bike Sales Dashboard](#bike-sales-dashboard---project-overview)  
+2. [Coffee Sales Dashboard](#coffee-sales-dashboard---project-overview)  
+
+---
+---
 ## **Project 1:**
 
 ## **Bike Sales Dashboard - Project Overview**  
@@ -169,18 +177,22 @@ The following steps were undertaken to clean and prepare the data for analysis:
 
 ## **Pivot Tables and Charts**  
 
-### **1. Pivot Table: Sales by Country**
+### **1. Pivot Table: Total Sales by Country**
 - Summarized total sales country-wise.  
 - Created a bar chart to visualize.  
-*(Insert Image of Country Pivot Table and Chart Here)*  
+  **Overview:**  
+   ![](Images/countrysale.png) 
 
 ### **2. Pivot Table: Top 5 Customers**
 - Identified and ranked the top 5 customers by total sales.  
-*(Insert Image of Top 5 Customers Pivot Table Here)*  
+ **Overview:**  
+   ![](Images/top5.png)   
 
 ### **3. Pivot Table: Sales Over Time**
-- Tracked total sales over time using a timeline filter.  
-*(Insert Image of Sales Over Time Pivot Table and Chart Here)*  
+- Tracked total sales over time using a timeline filter.
+- Line Chart  
+**Overview:**  
+   ![](Images/saleovertime.png)    
 
 ---
 
@@ -192,14 +204,15 @@ The following steps were undertaken to clean and prepare the data for analysis:
 - Connected slicers and timeline to all pivot tables using the "Report Connection" feature.
 
 ### **Final Dashboard Includes:**  
-1. **Total Sales Over Time** (with a timeline).  
-2. **Sales by Country** (bar chart).  
-3. **Top 5 Customers** (table).  
+1. **Total Sales Over Time** (Line Chart with a timeline).  
+2. **Sales by Country** (Bar Chart).  
+3. **Top 5 Customers** (Bar Chart).  
 4. **Interactive Slicers**:  
    - **Size**  
-   - **Roast Type Name**  
+   - **Coffee Type Name**  
    - **Loyalty Card**  
-*(Insert Final Dashboard Image Here)*  
+**Overview:**  
+   ![Coffee Sales Dashboard](Images/csdash.png)  
 
 ---
 
@@ -216,7 +229,7 @@ The following steps were undertaken to clean and prepare the data for analysis:
 ## **Conclusion**  
 The **Coffee Sales Dashboard** project demonstrates proficiency in Excel for data cleaning, preparation, and visualization. It provides a comprehensive overview of sales trends, customer insights, and product performance.  
 
-This project is a testament to leveraging Excel for strategic decision-making through advanced analysis and dashboard creation.
+
 
 ---
 
